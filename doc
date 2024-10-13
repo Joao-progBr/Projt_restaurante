@@ -1,0 +1,32 @@
+Explicação do Código
+<header class="navbar navbar-expand-lg sticky-top">:
+
+<header>: Este elemento HTML define o cabeçalho da página, que geralmente contém o logotipo, título e navegação.
+class="navbar navbar-expand-lg sticky-top":
+navbar: Uma classe do Bootstrap que aplica estilos para criar uma barra de navegação.
+navbar-expand-lg: Faz com que a barra de navegação se expanda em dispositivos grandes (lg ou maior). Em dispositivos menores, a navegação será colapsada em um menu "hamburger" (não mostrado no código fornecido).
+sticky-top: Mantém o cabeçalho fixo no topo da página quando o usuário rola a página para baixo.
+<div class="container">:
+
+<div>: Um contêiner do Bootstrap que centraliza o conteúdo e adiciona um espaçamento horizontal automático.
+class="container": Aplica um estilo que ajusta a largura do contêiner dependendo da largura da tela, garantindo que o conteúdo fique bem posicionado e centralizado.
+<h1 class="navbar-brand">:
+
+<h1>: Define o título principal da página, que é geralmente o nome do restaurante neste caso.
+class="navbar-brand": Aplica estilos específicos para marcas ou logotipos em uma barra de navegação do Bootstrap, geralmente aumentando o tamanho da fonte e ajustando o espaçamento.
+<nav>:
+
+<nav>: Elemento semântico HTML5 que define a seção de navegação da página. Dentro deste elemento, você encontrará os itens de menu.
+<ul class="nav nav-pills">:
+
+<ul>: Lista não ordenada que contém os itens de navegação.
+class="nav nav-pills": Aplica estilos de navegação com abas (nav-pills), o que dá aos itens de menu uma aparência de "pílulas" (ou botões).
+<li class="nav-item">:
+
+<li>: Define um item dentro da lista.
+class="nav-item": Aplica um estilo para itens de navegação, normalmente ajustando o espaçamento e o layout dos itens.
+<a class="nav-link active" href="">Sobre o restaurante</a>:
+
+<a>: Define um link de navegação.
+class="nav-link active": Aplica estilos para links de navegação e a classe active destaca o link atualmente ativo (o que geralmente indica a página atual).
+href="": Define o destino do link. Neste exemplo, está vazio (""), mas você deve adicionar URLs reais para direcionar os usuários para diferentes seções da página ou outras páginas.
